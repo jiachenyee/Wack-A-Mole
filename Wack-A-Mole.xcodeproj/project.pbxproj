@@ -13,19 +13,23 @@
 		32CBAC7929928BC500805943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC7829928BC500805943 /* Preview Assets.xcassets */; };
 		32CBAC8029928BD000805943 /* DevicePositionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */; };
 		32CBAC8229928C5C00805943 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8129928C5C00805943 /* Manager.swift */; };
-		32CBAC8429928D5900805943 /* Tapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8329928D5900805943 /* Tapped.swift */; };
 		32CBAC8629928D7700805943 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8529928D7700805943 /* DeviceLocation.swift */; };
-		32CBAC8829928DB900805943 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8729928DB900805943 /* GameView.swift */; };
+		32CBAC8829928DB900805943 /* DeviceContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8729928DB900805943 /* DeviceContentsView.swift */; };
 		32CBAC902992D07C00805943 /* ControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8F2992D07C00805943 /* ControllerApp.swift */; };
 		32CBAC922992D07C00805943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC912992D07C00805943 /* ContentView.swift */; };
 		32CBAC942992D07D00805943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC932992D07D00805943 /* Assets.xcassets */; };
 		32CBAC972992D07D00805943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC962992D07D00805943 /* Preview Assets.xcassets */; };
 		32CBAC9C2992D09900805943 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8529928D7700805943 /* DeviceLocation.swift */; };
-		32CBAC9D2992D09900805943 /* Tapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8329928D5900805943 /* Tapped.swift */; };
 		32CBAC9F2992D1D500805943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */; };
 		32CBACA02992D1D500805943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */; };
 		32CBACA32992D2D200805943 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 32CBACA22992D2D200805943 /* FirebaseDatabase */; };
 		32CBACA52992D2D300805943 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 32CBACA42992D2D300805943 /* FirebaseDatabaseSwift */; };
+		32CBACA72992D55200805943 /* DeviceContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACA62992D55200805943 /* DeviceContents.swift */; };
+		32CBACA82992D55200805943 /* DeviceContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACA62992D55200805943 /* DeviceContents.swift */; };
+		32CBACAA2992DAA900805943 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACA92992DAA900805943 /* GameView.swift */; };
+		32CBACAB2992DAA900805943 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACA92992DAA900805943 /* GameView.swift */; };
+		32CBACAE2992DAD500805943 /* ColorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACAD2992DAD500805943 /* ColorTextView.swift */; };
+		32CBACAF2992DAD500805943 /* ColorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBACAD2992DAD500805943 /* ColorTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,15 +40,17 @@
 		32CBAC7829928BC500805943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePositionPicker.swift; sourceTree = "<group>"; };
 		32CBAC8129928C5C00805943 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
-		32CBAC8329928D5900805943 /* Tapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapped.swift; sourceTree = "<group>"; };
 		32CBAC8529928D7700805943 /* DeviceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocation.swift; sourceTree = "<group>"; };
-		32CBAC8729928DB900805943 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		32CBAC8729928DB900805943 /* DeviceContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceContentsView.swift; sourceTree = "<group>"; };
 		32CBAC8D2992D07C00805943 /* Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CBAC8F2992D07C00805943 /* ControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerApp.swift; sourceTree = "<group>"; };
 		32CBAC912992D07C00805943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32CBAC932992D07D00805943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CBAC962992D07D00805943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32CBACA62992D55200805943 /* DeviceContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceContents.swift; sourceTree = "<group>"; };
+		32CBACA92992DAA900805943 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		32CBACAD2992DAD500805943 /* ColorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +98,7 @@
 				32CBAC7129928BC400805943 /* Wack_A_MoleApp.swift */,
 				32CBAC7329928BC400805943 /* ContentView.swift */,
 				32CBAC8129928C5C00805943 /* Manager.swift */,
-				32CBAC8729928DB900805943 /* GameView.swift */,
+				32CBACAC2992DAC400805943 /* Device Contents View */,
 				32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */,
 				32CBAC7529928BC500805943 /* Assets.xcassets */,
 				32CBAC7729928BC500805943 /* Preview Content */,
@@ -131,10 +137,20 @@
 			isa = PBXGroup;
 			children = (
 				32CBAC8529928D7700805943 /* DeviceLocation.swift */,
-				32CBAC8329928D5900805943 /* Tapped.swift */,
+				32CBACA62992D55200805943 /* DeviceContents.swift */,
 				32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		32CBACAC2992DAC400805943 /* Device Contents View */ = {
+			isa = PBXGroup;
+			children = (
+				32CBAC8729928DB900805943 /* DeviceContentsView.swift */,
+				32CBACA92992DAA900805943 /* GameView.swift */,
+				32CBACAD2992DAD500805943 /* ColorTextView.swift */,
+			);
+			path = "Device Contents View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,13 +262,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CBAC8429928D5900805943 /* Tapped.swift in Sources */,
 				32CBAC7429928BC400805943 /* ContentView.swift in Sources */,
 				32CBAC8029928BD000805943 /* DevicePositionPicker.swift in Sources */,
 				32CBAC7229928BC400805943 /* Wack_A_MoleApp.swift in Sources */,
 				32CBAC8629928D7700805943 /* DeviceLocation.swift in Sources */,
 				32CBAC8229928C5C00805943 /* Manager.swift in Sources */,
-				32CBAC8829928DB900805943 /* GameView.swift in Sources */,
+				32CBACA72992D55200805943 /* DeviceContents.swift in Sources */,
+				32CBACAA2992DAA900805943 /* GameView.swift in Sources */,
+				32CBAC8829928DB900805943 /* DeviceContentsView.swift in Sources */,
+				32CBACAE2992DAD500805943 /* ColorTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CBAC922992D07C00805943 /* ContentView.swift in Sources */,
-				32CBAC9D2992D09900805943 /* Tapped.swift in Sources */,
+				32CBACA82992D55200805943 /* DeviceContents.swift in Sources */,
 				32CBAC9C2992D09900805943 /* DeviceLocation.swift in Sources */,
 				32CBAC902992D07C00805943 /* ControllerApp.swift in Sources */,
+				32CBACAB2992DAA900805943 /* GameView.swift in Sources */,
+				32CBACAF2992DAD500805943 /* ColorTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

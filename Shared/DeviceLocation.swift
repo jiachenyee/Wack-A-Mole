@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct DeviceLocation: Codable {
+struct DeviceLocation {
     var x: Int
     var y: Int
+    
+    var locationString: String {
+        "\(x)x\(y)"
+    }
 }

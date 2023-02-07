@@ -2,7 +2,7 @@
 //  GameView.swift
 //  Wack-A-Mole
 //
-//  Created by Jia Chen Yee on 7/2/23.
+//  Created by Jia Chen Yee on 8/2/23.
 //
 
 import SwiftUI
