@@ -18,7 +18,6 @@ struct DevicePositionPicker: View {
                     ForEach(0..<5) { column in
                         Button {
                             deviceLocation = DeviceLocation(x: column, y: row)
-                            print(deviceLocation)
                         } label: {
                             Image(systemName: "iphone")
                         }
