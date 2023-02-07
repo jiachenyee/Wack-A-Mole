@@ -22,6 +22,8 @@
 		32CBAC972992D07D00805943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC962992D07D00805943 /* Preview Assets.xcassets */; };
 		32CBAC9C2992D09900805943 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8529928D7700805943 /* DeviceLocation.swift */; };
 		32CBAC9D2992D09900805943 /* Tapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8329928D5900805943 /* Tapped.swift */; };
+		32CBAC9F2992D1D500805943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */; };
+		32CBACA02992D1D500805943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,7 @@
 		32CBAC912992D07C00805943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32CBAC932992D07D00805943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CBAC962992D07D00805943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 			children = (
 				32CBAC8529928D7700805943 /* DeviceLocation.swift */,
 				32CBAC8329928D5900805943 /* Tapped.swift */,
+				32CBAC9E2992D1D500805943 /* GoogleService-Info.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 			files = (
 				32CBAC7929928BC500805943 /* Preview Assets.xcassets in Resources */,
 				32CBAC7629928BC500805943 /* Assets.xcassets in Resources */,
+				32CBAC9F2992D1D500805943 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +224,7 @@
 			files = (
 				32CBAC972992D07D00805943 /* Preview Assets.xcassets in Resources */,
 				32CBAC942992D07D00805943 /* Assets.xcassets in Resources */,
+				32CBACA02992D1D500805943 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.jiachen.Controller;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Wack-A-Mole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,7 +481,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.jiachen.Controller;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.jiachen.Wack-A-Mole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

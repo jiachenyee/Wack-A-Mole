@@ -8,7 +8,11 @@
 import Foundation
 
 class Manager: ObservableObject {
-    @Published var location: DeviceLocation?
+    @Published var location: DeviceLocation? {
+        didSet {
+            tapped()
+        }
+    }
     
     func tapped() {
         
