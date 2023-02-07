@@ -11,6 +11,11 @@
 		32CBAC7429928BC400805943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC7329928BC400805943 /* ContentView.swift */; };
 		32CBAC7629928BC500805943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC7529928BC500805943 /* Assets.xcassets */; };
 		32CBAC7929928BC500805943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CBAC7829928BC500805943 /* Preview Assets.xcassets */; };
+		32CBAC8029928BD000805943 /* DevicePositionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */; };
+		32CBAC8229928C5C00805943 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8129928C5C00805943 /* Manager.swift */; };
+		32CBAC8429928D5900805943 /* Tapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8329928D5900805943 /* Tapped.swift */; };
+		32CBAC8629928D7700805943 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8529928D7700805943 /* DeviceLocation.swift */; };
+		32CBAC8829928DB900805943 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CBAC8729928DB900805943 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		32CBAC7329928BC400805943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32CBAC7529928BC500805943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CBAC7829928BC500805943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePositionPicker.swift; sourceTree = "<group>"; };
+		32CBAC8129928C5C00805943 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		32CBAC8329928D5900805943 /* Tapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapped.swift; sourceTree = "<group>"; };
+		32CBAC8529928D7700805943 /* DeviceLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocation.swift; sourceTree = "<group>"; };
+		32CBAC8729928DB900805943 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				32CBAC7129928BC400805943 /* Wack_A_MoleApp.swift */,
 				32CBAC7329928BC400805943 /* ContentView.swift */,
+				32CBAC8129928C5C00805943 /* Manager.swift */,
+				32CBAC8729928DB900805943 /* GameView.swift */,
+				32CBAC8529928D7700805943 /* DeviceLocation.swift */,
+				32CBAC8329928D5900805943 /* Tapped.swift */,
+				32CBAC7F29928BD000805943 /* DevicePositionPicker.swift */,
 				32CBAC7529928BC500805943 /* Assets.xcassets */,
 				32CBAC7729928BC500805943 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CBAC8429928D5900805943 /* Tapped.swift in Sources */,
 				32CBAC7429928BC400805943 /* ContentView.swift in Sources */,
+				32CBAC8029928BD000805943 /* DevicePositionPicker.swift in Sources */,
 				32CBAC7229928BC400805943 /* Wack_A_MoleApp.swift in Sources */,
+				32CBAC8629928D7700805943 /* DeviceLocation.swift in Sources */,
+				32CBAC8229928C5C00805943 /* Manager.swift in Sources */,
+				32CBAC8829928DB900805943 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

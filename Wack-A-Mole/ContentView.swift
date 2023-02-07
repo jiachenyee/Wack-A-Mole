@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var manager = Manager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if manager.location == nil {
+            DevicePositionPicker(deviceLocation: $manager.location)
+        } else {
+            GameView(manager: manager)
         }
-        .padding()
     }
 }
 
