@@ -15,7 +15,7 @@ struct ContentView: View {
         if manager.location == nil {
             DevicePositionPicker(deviceLocation: $manager.location)
         } else {
-            GameView(manager: manager)
+            DeviceContentsView(manager: manager)
         }
     }
 }
