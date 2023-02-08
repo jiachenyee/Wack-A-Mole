@@ -16,7 +16,7 @@ struct ContentView: View {
             HStack(spacing: 0) {
                 Spacer()
                 Button("SEND") {
-                    manager.send(deviceContents: DeviceContents(color: .init(red: 0.5, green: 0.5, blue: 0.5), text: "A", action: .showTextWithColor), to: .init(x: 0, y: 0))
+                    
                 }
                 Spacer()
                 Divider()
