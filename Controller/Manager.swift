@@ -14,6 +14,7 @@ class Manager: ObservableObject {
     var ref: DatabaseReference!
     
     @Published var score = 0
+    @Published var isPlaying = false
     
     @Published var onlineDevices: [DeviceLocation] = []
     @Published var taps: [DeviceLocation] = []
@@ -30,8 +31,9 @@ class Manager: ObservableObject {
     
     func observe() {
         ref.observe(.value) { [self] snapshot  in
-            
-            score += 1
+            if isPlaying {
+                score += 1
+            }
             
             guard let snapshotValue = snapshot.value as? NSDictionary else { return }
             onlineDevices = snapshotValue.allKeys.map { key in
@@ -156,6 +158,7 @@ class Manager: ObservableObject {
         
         Timer.scheduledTimer(withTimeInterval: 4, repeats: false) { _ in
             self.score = 0
+            isPlaying = true
         }
         
         send(deviceContents: DeviceContents(text: "G", action: .showTextWithColor), to: .init(x: 0, y: 0), time: startTime.advanced(by: 90))
@@ -171,6 +174,7 @@ class Manager: ObservableObject {
         send(deviceContents: DeviceContents(text: "!", action: .showTextWithColor), to: .init(x: 4, y: 1), time: startTime.advanced(by: 90))
         
         Timer.scheduledTimer(withTimeInterval: 93.5, repeats: false) { _ in
+            isPlaying = false
             let score = Array("0000" + String(self.score)).reversed().map { String($0) }
             
             self.send(deviceContents: DeviceContents(text: score[0], action: .showTextWithColor), to: .init(x: 0, y: 2))
