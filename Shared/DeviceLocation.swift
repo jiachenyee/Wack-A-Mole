@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DeviceLocation {
+struct DeviceLocation: Hashable {
     var x: Int
     var y: Int
     

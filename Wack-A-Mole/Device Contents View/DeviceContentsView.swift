@@ -17,7 +17,7 @@ struct DeviceContentsView: View {
             case .startGame:
                 Text("AA")
             case .showColour, .showTextWithColor:
-                Text("AAA")
+                ColorTextView(deviceContents: contents)
             }
         } else {
             ProgressView()

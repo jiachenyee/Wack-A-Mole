@@ -32,10 +32,14 @@ class Manager: ObservableObject {
         ref.child(location.locationString).child("commands").observe(.childAdded) { snapshot in
             guard let deviceContents = try? snapshot.data(as: DeviceContents.self) else { return }
             
-            let time = abs(Date(timeIntervalSince1970: Double(snapshot.key)!).timeIntervalSinceNow)
+            let time = Date(timeIntervalSince1970: Double(snapshot.key)! / 10000).timeIntervalSinceNow
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + time) {
+            if time < 0 {
                 self.deviceContents = deviceContents
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + time) {
+                    self.deviceContents = deviceContents
+                }
             }
         }
     }
