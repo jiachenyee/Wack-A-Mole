@@ -10,8 +10,8 @@ import SwiftUI
 struct GameView: View {
     
     @ObservedObject var manager: Manager
-    let timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
-    @State var generatedNumber = Int.random(in: 1...20)
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State var generatedNumber = Int.random(in: 1...15)
 
     
     var body: some View {
@@ -19,6 +19,7 @@ struct GameView: View {
             if generatedNumber == 12 {
                 Button {
                     manager.tapped()
+                    generatedNumber = 1
                 } label: {
                     Color(.white)
                         .ignoresSafeArea()
@@ -29,9 +30,8 @@ struct GameView: View {
             }
         }
         .onReceive(timer) { _ in
-            let newNumber = Int.random(in: 1...20)
+            let newNumber = Int.random(in: 1...15)
             generatedNumber = newNumber
-            
         }
     }
 }

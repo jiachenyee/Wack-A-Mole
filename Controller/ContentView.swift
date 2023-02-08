@@ -15,8 +15,12 @@ struct ContentView: View {
         GeometryReader { proxy in
             HStack(spacing: 0) {
                 Spacer()
-                Button("SEND") {
-                    
+                VStack {
+                    Text("\(manager.score)")
+                        .font(.system(size: 32))
+                    Button("START") {
+                        manager.startGame()
+                    }
                 }
                 Spacer()
                 Divider()

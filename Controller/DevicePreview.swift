@@ -24,7 +24,7 @@ struct DevicePreview: View {
                                 .opacity(0.25)
                             
                             if manager.onlineDevices.contains(where: {
-                                $0.x == row && $0.y == column
+                                $0.x == column && $0.y == row
                             }) {
                                 Image(systemName: "checkmark.circle.fill")
                                     .symbolRenderingMode(.multicolor)

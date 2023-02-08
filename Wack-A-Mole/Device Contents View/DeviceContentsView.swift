@@ -15,7 +15,7 @@ struct DeviceContentsView: View {
         if let contents = manager.deviceContents {
             switch contents.action {
             case .startGame:
-                Text("AA")
+                GameView(manager: manager)
             case .showColour, .showTextWithColor:
                 ColorTextView(deviceContents: contents)
             }
